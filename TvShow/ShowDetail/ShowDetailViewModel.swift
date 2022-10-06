@@ -57,6 +57,10 @@ class ShowDetailViewModel {
             }
         }
     }
+    
+    func goToEpisodeDetail(episode: Episodes) {
+        router.goToEpisodeDetail(episode: episode)
+    }
 }
 
 extension ShowDetailViewModel: DisposeBagProvider, BindingExecutionContextProvider {

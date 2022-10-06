@@ -12,5 +12,10 @@ public class ShowDetailRouter {
     
     public required init(viewController: UIViewController) {
         self.viewController = viewController
-    }    
+    }
+    
+    func goToEpisodeDetail(episode: Episodes) {
+        let viewController = EpisodesBuilder(episode: episode).build()
+        self.viewController?.navigationController?.pushViewController(viewController, animated: true)
+    }
 }

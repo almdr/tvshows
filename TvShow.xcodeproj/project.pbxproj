@@ -27,6 +27,10 @@
 		D16EFD232807AB8900D0A932 /* Episodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16EFD222807AB8900D0A932 /* Episodes.swift */; };
 		D16EFD252807AD4200D0A932 /* episodes.json in Resources */ = {isa = PBXBuildFile; fileRef = D16EFD242807AD4200D0A932 /* episodes.json */; };
 		D16EFD272807C3B900D0A932 /* ListEpisodesAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16EFD262807C3B900D0A932 /* ListEpisodesAdapter.swift */; };
+		D1C19C2128EE919B00E29BC8 /* EpisodesBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C19C2028EE919B00E29BC8 /* EpisodesBuilder.swift */; };
+		D1C19C2328EE91AA00E29BC8 /* EpisodesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C19C2228EE91AA00E29BC8 /* EpisodesViewModel.swift */; };
+		D1C19C2528EE91B600E29BC8 /* EpisodesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C19C2428EE91B600E29BC8 /* EpisodesViewController.swift */; };
+		D1C19C2728EE91CE00E29BC8 /* EpisodesViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1C19C2628EE91CE00E29BC8 /* EpisodesViewController.storyboard */; };
 		D1D513BA28047DA20041F9B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D513B928047DA20041F9B1 /* AppDelegate.swift */; };
 		D1D513BC28047DA20041F9B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D513BB28047DA20041F9B1 /* SceneDelegate.swift */; };
 		D1D513C128047DA20041F9B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1D513BF28047DA20041F9B1 /* Main.storyboard */; };
@@ -84,6 +88,10 @@
 		D16EFD222807AB8900D0A932 /* Episodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episodes.swift; sourceTree = "<group>"; };
 		D16EFD242807AD4200D0A932 /* episodes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = episodes.json; sourceTree = "<group>"; };
 		D16EFD262807C3B900D0A932 /* ListEpisodesAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListEpisodesAdapter.swift; sourceTree = "<group>"; };
+		D1C19C2028EE919B00E29BC8 /* EpisodesBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesBuilder.swift; sourceTree = "<group>"; };
+		D1C19C2228EE91AA00E29BC8 /* EpisodesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesViewModel.swift; sourceTree = "<group>"; };
+		D1C19C2428EE91B600E29BC8 /* EpisodesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesViewController.swift; sourceTree = "<group>"; };
+		D1C19C2628EE91CE00E29BC8 /* EpisodesViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EpisodesViewController.storyboard; sourceTree = "<group>"; };
 		D1D513B628047DA20041F9B1 /* TvShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TvShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1D513B928047DA20041F9B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1D513BB28047DA20041F9B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -156,6 +164,17 @@
 			path = ShowDetail;
 			sourceTree = "<group>";
 		};
+		D1C19C1F28EE917200E29BC8 /* Episodes */ = {
+			isa = PBXGroup;
+			children = (
+				D1C19C2028EE919B00E29BC8 /* EpisodesBuilder.swift */,
+				D1C19C2228EE91AA00E29BC8 /* EpisodesViewModel.swift */,
+				D1C19C2428EE91B600E29BC8 /* EpisodesViewController.swift */,
+				D1C19C2628EE91CE00E29BC8 /* EpisodesViewController.storyboard */,
+			);
+			path = Episodes;
+			sourceTree = "<group>";
+		};
 		D1D513AD28047DA20041F9B1 = {
 			isa = PBXGroup;
 			children = (
@@ -179,6 +198,7 @@
 		D1D513B828047DA20041F9B1 /* TvShow */ = {
 			isa = PBXGroup;
 			children = (
+				D1C19C1F28EE917200E29BC8 /* Episodes */,
 				D16EFD152807A92E00D0A932 /* ShowDetail */,
 				D13D57612806026D00FD747E /* Adapters */,
 				D1D514232804AF8D0041F9B1 /* Shows */,
@@ -378,6 +398,7 @@
 				D1D513C128047DA20041F9B1 /* Main.storyboard in Resources */,
 				D16EFD1D2807A99A00D0A932 /* ShowDetailViewController.storyboard in Resources */,
 				D13D57602805DA0300FD747E /* ShowViewController.storyboard in Resources */,
+				D1C19C2728EE91CE00E29BC8 /* EpisodesViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,12 +428,15 @@
 			files = (
 				D16EFD272807C3B900D0A932 /* ListEpisodesAdapter.swift in Sources */,
 				D13D577228067D5D00FD747E /* SearchResult.swift in Sources */,
+				D1C19C2328EE91AA00E29BC8 /* EpisodesViewModel.swift in Sources */,
 				D16EFD1B2807A97700D0A932 /* ShowDetailViewController.swift in Sources */,
 				D13D576A280613E600FD747E /* UIViewControlerExtension.swift in Sources */,
 				D16EFD232807AB8900D0A932 /* Episodes.swift in Sources */,
 				D115AB7828EE5E98002D9C7A /* SearchProvider.swift in Sources */,
 				D13D57652806062C00FD747E /* ShowTableViewCell.swift in Sources */,
 				D1D513EF280481CD0041F9B1 /* Image.swift in Sources */,
+				D1C19C2128EE919B00E29BC8 /* EpisodesBuilder.swift in Sources */,
+				D1C19C2528EE91B600E29BC8 /* EpisodesViewController.swift in Sources */,
 				D1D513BA28047DA20041F9B1 /* AppDelegate.swift in Sources */,
 				D115AB7A28EE5EFD002D9C7A /* EpisodesProvider.swift in Sources */,
 				D115AB7628EE5CE0002D9C7A /* ShowProvider.swift in Sources */,
@@ -666,7 +690,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5HAN5UJ474;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = munoz.TvShowTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -686,7 +710,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5HAN5UJ474;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = munoz.TvShowTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -705,6 +729,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5HAN5UJ474;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = munoz.TvShowUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -723,6 +748,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5HAN5UJ474;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = munoz.TvShowUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";

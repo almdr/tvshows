@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Episodes View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="EpisodesViewController" customModule="TvShow" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZoI-aw-jeP">
+                                <rect key="frame" x="0.0" y="67" width="414" height="224"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pilot." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MaV-3v-oT2">
+                                <rect key="frame" x="8" y="311" width="398" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Season:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1BD-VT-Wlh">
+                                <rect key="frame" x="20" y="367" width="61" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9d6-oy-Te5">
+                                <rect key="frame" x="314" y="367" width="61.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z1z-zG-DeZ">
+                                <rect key="frame" x="89" y="367" width="7.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bnY-Yd-tHr">
+                                <rect key="frame" x="20" y="408" width="374" height="209"/>
+                                <string key="text">When the residents of Chester's Mill find themselves trapped under a massive transparent dome with no way out, they struggle to survive as resources rapidly dwindle and panic quickly escalates.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fSV-8r-1ep">
+                                <rect key="frame" x="383.5" y="367" width="10.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ZoI-aw-jeP" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="2g0-1u-gGL"/>
+                            <constraint firstItem="MaV-3v-oT2" firstAttribute="top" secondItem="ZoI-aw-jeP" secondAttribute="bottom" constant="20" id="3PQ-Zq-G13"/>
+                            <constraint firstItem="MaV-3v-oT2" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="DrT-tc-QZl"/>
+                            <constraint firstItem="1BD-VT-Wlh" firstAttribute="top" secondItem="MaV-3v-oT2" secondAttribute="bottom" constant="8" id="Hsj-wn-823"/>
+                            <constraint firstItem="ZoI-aw-jeP" firstAttribute="height" secondItem="5EZ-qb-Rvc" secondAttribute="height" multiplier="0.25" id="IkU-yd-KW7"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="fSV-8r-1ep" secondAttribute="trailing" constant="20" id="K56-xf-1g2"/>
+                            <constraint firstItem="bnY-Yd-tHr" firstAttribute="top" secondItem="fSV-8r-1ep" secondAttribute="bottom" constant="20" id="UQ7-La-5Lt"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="bnY-Yd-tHr" secondAttribute="trailing" constant="20" id="YOx-9k-2UY"/>
+                            <constraint firstItem="z1z-zG-DeZ" firstAttribute="leading" secondItem="1BD-VT-Wlh" secondAttribute="trailing" constant="8" id="bGc-m2-Jna"/>
+                            <constraint firstItem="ZoI-aw-jeP" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="23" id="bY6-ww-JmX"/>
+                            <constraint firstItem="bnY-Yd-tHr" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="cJT-eF-gIJ"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="ZoI-aw-jeP" secondAttribute="trailing" id="cju-KX-tZg"/>
+                            <constraint firstItem="MaV-3v-oT2" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="8" id="fJ4-7z-etn"/>
+                            <constraint firstItem="fSV-8r-1ep" firstAttribute="centerY" secondItem="z1z-zG-DeZ" secondAttribute="centerY" id="nWm-cv-tlO"/>
+                            <constraint firstItem="fSV-8r-1ep" firstAttribute="leading" secondItem="9d6-oy-Te5" secondAttribute="trailing" constant="8" id="noc-d2-NIB"/>
+                            <constraint firstItem="9d6-oy-Te5" firstAttribute="centerY" secondItem="fSV-8r-1ep" secondAttribute="centerY" id="okv-Lx-YmC"/>
+                            <constraint firstItem="z1z-zG-DeZ" firstAttribute="centerY" secondItem="1BD-VT-Wlh" secondAttribute="centerY" id="pdI-5R-Mv4"/>
+                            <constraint firstItem="1BD-VT-Wlh" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="vp8-eI-UvV"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="MaV-3v-oT2" secondAttribute="trailing" constant="8" id="xMa-Bm-op2"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="image" destination="ZoI-aw-jeP" id="vjN-fV-jxo"/>
+                        <outlet property="nameLabel" destination="MaV-3v-oT2" id="Flm-mM-fva"/>
+                        <outlet property="number" destination="fSV-8r-1ep" id="7Vc-Yj-lL9"/>
+                        <outlet property="season" destination="z1z-zG-DeZ" id="V2B-ps-bhc"/>
+                        <outlet property="summary" destination="bnY-Yd-tHr" id="bpT-sD-Pph"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="66.666666666666671" y="101.78571428571428"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

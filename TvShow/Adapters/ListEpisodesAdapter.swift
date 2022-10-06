@@ -60,15 +60,7 @@ extension ListEpisodesAdapter: UITableViewDataSource {
 extension ListEpisodesAdapter: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        //guard let student = self.dataSource[indexPath.row] as? Show else { return }
-        //self.controller.goToEpisodeDetail(<#T##student: Show##Show#>)
+        guard let episode = self.dataSource[indexPath.section][indexPath.row] as? Episodes else { return }
+        self.controller.goToEpisodeDetail(episode)
     }
-    /*
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        switch self.dataSource[indexPath.row] {
-            case is Show: return UITableView.automaticDimension
-            case is String: return tableView.frame.height
-            default: return 0
-        }
-    }*/
 }

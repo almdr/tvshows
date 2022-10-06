@@ -85,5 +85,6 @@ extension ShowDetailViewController {
 extension ShowDetailViewController: ListEpisodesViewControllerProtocol {
     
     func goToEpisodeDetail(_ episode: Episodes) {
+        viewModel.goToEpisodeDetail(episode: episode)
     }
 }
