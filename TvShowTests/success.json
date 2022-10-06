@@ -1,0 +1,575 @@
+[
+    {
+        "score": 0.8356365,
+        "show": {
+            "id": 37234,
+            "url": "https://www.tvmaze.com/shows/37234/success",
+            "name": "Success",
+            "type": "Reality",
+            "language": "Swedish",
+            "genres": [],
+            "status": "Ended",
+            "runtime": 15,
+            "averageRuntime": 15,
+            "premiered": "2018-01-01",
+            "ended": "2018-03-05",
+            "officialSite": "https://www.viafree.se/program/reality/success",
+            "schedule": {
+                "time": "",
+                "days": [
+                    "Monday"
+                ]
+            },
+            "rating": {
+                "average": null
+            },
+            "weight": 26,
+            "network": null,
+            "webChannel": {
+                "id": 191,
+                "name": "Viafree",
+                "country": null,
+                "officialSite": null
+            },
+            "dvdCountry": null,
+            "externals": {
+                "tvrage": null,
+                "thetvdb": null,
+                "imdb": null
+            },
+            "image": null,
+            "summary": "<p>In <b>Success</b>, we follow four successful Swedish 90's icons; Alicia Agneson, Tilda Nordh, Frank Lindgren and Kunal Chauhan in their everyday lives which are characterized by success and hard work. They are four different driven characters with a common dream - to succeed.</p>",
+            "updated": 1629207456,
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/shows/37234"
+                },
+                "previousepisode": {
+                    "href": "https://api.tvmaze.com/episodes/1483238"
+                }
+            }
+        }
+    },
+    {
+        "score": 0.6634282,
+        "show": {
+            "id": 41755,
+            "url": "https://www.tvmaze.com/shows/41755/lake-success",
+            "name": "Lake Success",
+            "type": "Scripted",
+            "language": "English",
+            "genres": [
+                "Drama"
+            ],
+            "status": "In Development",
+            "runtime": null,
+            "averageRuntime": null,
+            "premiered": null,
+            "ended": null,
+            "officialSite": null,
+            "schedule": {
+                "time": "",
+                "days": []
+            },
+            "rating": {
+                "average": null
+            },
+            "weight": 46,
+            "network": {
+                "id": 8,
+                "name": "HBO",
+                "country": {
+                    "name": "United States",
+                    "code": "US",
+                    "timezone": "America/New_York"
+                },
+                "officialSite": "https://www.hbo.com/"
+            },
+            "webChannel": null,
+            "dvdCountry": null,
+            "externals": {
+                "tvrage": null,
+                "thetvdb": 364567,
+                "imdb": "tt10179026"
+            },
+            "image": null,
+            "summary": "<p><b>Lake Success</b> centers on narcissistic, self-deluded and hilariously divorced from the real world, hedge fund manager Barry Cohen who flees his family, his past and the SEC on a cross-country bus ride in search of his college girlfriend and a last chance at romantic redemption. Meanwhile, back in Manhattan, his brilliant wife Seema struggles to raise their autistic son and begins a tragicomic love affair of her own.</p>",
+            "updated": 1634168464,
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/shows/41755"
+                }
+            }
+        }
+    },
+    {
+        "score": 0.5292411,
+        "show": {
+            "id": 44425,
+            "url": "https://www.tvmaze.com/shows/44425/love-and-success",
+            "name": "Love and Success",
+            "type": "Scripted",
+            "language": "Korean",
+            "genres": [
+                "Drama",
+                "Romance"
+            ],
+            "status": "Ended",
+            "runtime": 60,
+            "averageRuntime": 60,
+            "premiered": "1998-09-19",
+            "ended": "1999-03-07",
+            "officialSite": null,
+            "schedule": {
+                "time": "20:00",
+                "days": [
+                    "Saturday",
+                    "Sunday"
+                ]
+            },
+            "rating": {
+                "average": null
+            },
+            "weight": 23,
+            "network": {
+                "id": 166,
+                "name": "MBC",
+                "country": {
+                    "name": "Korea, Republic of",
+                    "code": "KR",
+                    "timezone": "Asia/Seoul"
+                },
+                "officialSite": null
+            },
+            "webChannel": null,
+            "dvdCountry": null,
+            "externals": {
+                "tvrage": null,
+                "thetvdb": null,
+                "imdb": null
+            },
+            "image": {
+                "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/215/538575.jpg",
+                "original": "https://static.tvmaze.com/uploads/images/original_untouched/215/538575.jpg"
+            },
+            "summary": null,
+            "updated": 1570992104,
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/shows/44425"
+                },
+                "previousepisode": {
+                    "href": "https://api.tvmaze.com/episodes/1733951"
+                }
+            }
+        }
+    },
+    {
+        "score": 0.49916008,
+        "show": {
+            "id": 22422,
+            "url": "https://www.tvmaze.com/shows/22422/relative-success-with-tabatha",
+            "name": "Relative Success with Tabatha",
+            "type": "Reality",
+            "language": "English",
+            "genres": [],
+            "status": "Ended",
+            "runtime": 60,
+            "averageRuntime": 60,
+            "premiered": "2018-01-17",
+            "ended": "2018-03-23",
+            "officialSite": "http://www.bravotv.com/relative-success-with-tabatha",
+            "schedule": {
+                "time": "22:00",
+                "days": [
+                    "Friday"
+                ]
+            },
+            "rating": {
+                "average": null
+            },
+            "weight": 34,
+            "network": {
+                "id": 52,
+                "name": "Bravo",
+                "country": {
+                    "name": "United States",
+                    "code": "US",
+                    "timezone": "America/New_York"
+                },
+                "officialSite": null
+            },
+            "webChannel": null,
+            "dvdCountry": null,
+            "externals": {
+                "tvrage": null,
+                "thetvdb": null,
+                "imdb": "tt7747014"
+            },
+            "image": {
+                "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/142/355325.jpg",
+                "original": "https://static.tvmaze.com/uploads/images/original_untouched/142/355325.jpg"
+            },
+            "summary": "<p><b>Relative Success with Tabatha</b> will follow Australian hairstylist and salon owner Tabatha Coffey as she brings her expertise and personal experience to the complicated world of family businesses.</p>",
+            "updated": 1620656929,
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/shows/22422"
+                },
+                "previousepisode": {
+                    "href": "https://api.tvmaze.com/episodes/1428425"
+                }
+            }
+        }
+    },
+    {
+        "score": 0.4267475,
+        "show": {
+            "id": 28885,
+            "url": "https://www.tvmaze.com/shows/28885/recipe-for-success",
+            "name": "Recipe for Success",
+            "type": "Reality",
+            "language": "English",
+            "genres": [],
+            "status": "Ended",
+            "runtime": 45,
+            "averageRuntime": 45,
+            "premiered": "2008-03-03",
+            "ended": "2008-03-28",
+            "officialSite": "http://www.bbc.co.uk/programmes/b009f3wl",
+            "schedule": {
+                "time": "17:15",
+                "days": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday"
+                ]
+            },
+            "rating": {
+                "average": null
+            },
+            "weight": 6,
+            "network": {
+                "id": 37,
+                "name": "BBC Two",
+                "country": {
+                    "name": "United Kingdom",
+                    "code": "GB",
+                    "timezone": "Europe/London"
+                },
+                "officialSite": "https://www.bbc.co.uk/bbctwo"
+            },
+            "webChannel": null,
+            "dvdCountry": null,
+            "externals": {
+                "tvrage": null,
+                "thetvdb": 81632,
+                "imdb": null
+            },
+            "image": null,
+            "summary": "<p>Simon Rimmer challenges five couples with business ambitions to manage a restaurant for one day. The couple who make the most cash will get to keep all the money made that week.</p>",
+            "updated": 1504136330,
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/shows/28885"
+                },
+                "previousepisode": {
+                    "href": "https://api.tvmaze.com/episodes/1202154"
+                }
+            }
+        }
+    },
+    {
+        "score": 0.42516285,
+        "show": {
+            "id": 49500,
+            "url": "https://www.tvmaze.com/shows/49500/celebrity-masterchef-a-recipe-for-success",
+            "name": "Celebrity MasterChef: A Recipe for Success",
+            "type": "Documentary",
+            "language": "English",
+            "genres": [
+                "Food"
+            ],
+            "status": "Running",
+            "runtime": 60,
+            "averageRuntime": 60,
+            "premiered": "2020-08-06",
+            "ended": null,
+            "officialSite": "https://www.bbc.co.uk/programmes/m000ljpn",
+            "schedule": {
+                "time": "20:00",
+                "days": [
+                    "Thursday"
+                ]
+            },
+            "rating": {
+                "average": null
+            },
+            "weight": 29,
+            "network": {
+                "id": 12,
+                "name": "BBC One",
+                "country": {
+                    "name": "United Kingdom",
+                    "code": "GB",
+                    "timezone": "Europe/London"
+                },
+                "officialSite": "https://www.bbc.co.uk/bbcone"
+            },
+            "webChannel": null,
+            "dvdCountry": null,
+            "externals": {
+                "tvrage": null,
+                "thetvdb": null,
+                "imdb": null
+            },
+            "image": {
+                "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/268/672352.jpg",
+                "original": "https://static.tvmaze.com/uploads/images/original_untouched/268/672352.jpg"
+            },
+            "summary": "<p>Celebrating 15 years of the show, as John Torode and Gregg Wallace look back on the best moments and share memorable challenges. </p>",
+            "updated": 1598424844,
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/shows/49500"
+                },
+                "previousepisode": {
+                    "href": "https://api.tvmaze.com/episodes/1919844"
+                }
+            }
+        }
+    },
+    {
+        "score": 0.38141295,
+        "show": {
+            "id": 41839,
+            "url": "https://www.tvmaze.com/shows/41839/the-secrets-of-lake-success",
+            "name": "The Secrets of Lake Success",
+            "type": "Scripted",
+            "language": "English",
+            "genres": [
+                "Drama"
+            ],
+            "status": "Ended",
+            "runtime": 120,
+            "averageRuntime": 120,
+            "premiered": "1993-10-01",
+            "ended": "1993-10-15",
+            "officialSite": null,
+            "schedule": {
+                "time": "",
+                "days": [
+                    "Friday"
+                ]
+            },
+            "rating": {
+                "average": null
+            },
+            "weight": 9,
+            "network": {
+                "id": 1,
+                "name": "NBC",
+                "country": {
+                    "name": "United States",
+                    "code": "US",
+                    "timezone": "America/New_York"
+                },
+                "officialSite": "https://www.nbc.com/"
+            },
+            "webChannel": null,
+            "dvdCountry": null,
+            "externals": {
+                "tvrage": null,
+                "thetvdb": 189731,
+                "imdb": "tt0106129"
+            },
+            "image": {
+                "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/192/480161.jpg",
+                "original": "https://static.tvmaze.com/uploads/images/original_untouched/192/480161.jpg"
+            },
+            "summary": "<p>Lake Success is an idyllic location on which a fabulously wealthy family lives. However, all is not well in the family, with illicit sexual affairs, power struggles, and a whole lot more going on behind the scenes.</p>",
+            "updated": 1591936408,
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/shows/41839"
+                },
+                "previousepisode": {
+                    "href": "https://api.tvmaze.com/episodes/1641643"
+                }
+            }
+        }
+    },
+    {
+        "score": 0.37541848,
+        "show": {
+            "id": 39665,
+            "url": "https://www.tvmaze.com/shows/39665/the-duchess",
+            "name": "The Duchess",
+            "type": "Scripted",
+            "language": "English",
+            "genres": [
+                "Comedy"
+            ],
+            "status": "Ended",
+            "runtime": null,
+            "averageRuntime": 24,
+            "premiered": "2020-09-11",
+            "ended": "2020-09-11",
+            "officialSite": "https://www.netflix.com/title/80223040",
+            "schedule": {
+                "time": "",
+                "days": []
+            },
+            "rating": {
+                "average": 5.8
+            },
+            "weight": 90,
+            "network": null,
+            "webChannel": {
+                "id": 1,
+                "name": "Netflix",
+                "country": null,
+                "officialSite": "https://www.netflix.com/"
+            },
+            "dvdCountry": null,
+            "externals": {
+                "tvrage": null,
+                "thetvdb": 386788,
+                "imdb": "tt9310390"
+            },
+            "image": {
+                "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/272/682085.jpg",
+                "original": "https://static.tvmaze.com/uploads/images/original_untouched/272/682085.jpg"
+            },
+            "summary": "<p><b>The Duchess</b> follows the powerful and problematic choices of a fashionably disruptive single mom living in London. Her daughter, Olive, is her greatest love so she debates a second child with her greatest enemy -- Olive's dad. Can two wrongs make another right?</p>",
+            "updated": 1619764402,
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/shows/39665"
+                },
+                "previousepisode": {
+                    "href": "https://api.tvmaze.com/episodes/1917872"
+                }
+            }
+        }
+    },
+    {
+        "score": 0.3625921,
+        "show": {
+            "id": 8600,
+            "url": "https://www.tvmaze.com/shows/8600/all-access",
+            "name": "All Access",
+            "type": "Documentary",
+            "language": "English",
+            "genres": [
+                "Sports"
+            ],
+            "status": "Running",
+            "runtime": 30,
+            "averageRuntime": 30,
+            "premiered": "2012-06-13",
+            "ended": null,
+            "officialSite": "http://www.sho.com/sho/all-access/home",
+            "schedule": {
+                "time": "21:30",
+                "days": [
+                    "Saturday"
+                ]
+            },
+            "rating": {
+                "average": null
+            },
+            "weight": 88,
+            "network": {
+                "id": 9,
+                "name": "Showtime",
+                "country": {
+                    "name": "United States",
+                    "code": "US",
+                    "timezone": "America/New_York"
+                },
+                "officialSite": "https://www.sho.com/"
+            },
+            "webChannel": null,
+            "dvdCountry": null,
+            "externals": {
+                "tvrage": null,
+                "thetvdb": 269888,
+                "imdb": null
+            },
+            "image": {
+                "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/75/189678.jpg",
+                "original": "https://static.tvmaze.com/uploads/images/original_untouched/75/189678.jpg"
+            },
+            "summary": "<p><b>All Access</b> is an exclusive Showtime TV documentary series of 30-minute specials that chronicles the lives of athletes in unarmed combat sports.</p>",
+            "updated": 1648997910,
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/shows/8600"
+                },
+                "previousepisode": {
+                    "href": "https://api.tvmaze.com/episodes/2307161"
+                }
+            }
+        }
+    },
+    {
+        "score": 0.35724908,
+        "show": {
+            "id": 40237,
+            "url": "https://www.tvmaze.com/shows/40237/uspjeh",
+            "name": "Uspjeh",
+            "type": "Scripted",
+            "language": "Croatian",
+            "genres": [
+                "Drama",
+                "Crime"
+            ],
+            "status": "Ended",
+            "runtime": 60,
+            "averageRuntime": 60,
+            "premiered": "2019-01-06",
+            "ended": "2019-01-06",
+            "officialSite": "https://hbogo.hr/serije/uspjeh",
+            "schedule": {
+                "time": "",
+                "days": [
+                    "Sunday"
+                ]
+            },
+            "rating": {
+                "average": null
+            },
+            "weight": 41,
+            "network": null,
+            "webChannel": {
+                "id": 22,
+                "name": "HBO Go",
+                "country": null,
+                "officialSite": null
+            },
+            "dvdCountry": null,
+            "externals": {
+                "tvrage": null,
+                "thetvdb": 356902,
+                "imdb": "tt8453458"
+            },
+            "image": {
+                "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/200/502051.jpg",
+                "original": "https://static.tvmaze.com/uploads/images/original_untouched/200/502051.jpg"
+            },
+            "summary": "<p><b>Uspjeh</b> (Success) is a multi-layered drama focused on strong characters. Three complete strangers will be tied together through a series of unfortunate events when they try to help an assault victim. As the consequences of their actions seep into every aspect of their lives, these everyday people of differing backgrounds decide to take back control of their lives. It is a bitter ode to the city of Zagreb which brings dark insight into various structures of today's society through the lives of ordinary people driven over the edge by that same society.</p>",
+            "updated": 1649176776,
+            "_links": {
+                "self": {
+                    "href": "https://api.tvmaze.com/shows/40237"
+                },
+                "previousepisode": {
+                    "href": "https://api.tvmaze.com/episodes/1585693"
+                }
+            }
+        }
+    }
+]
